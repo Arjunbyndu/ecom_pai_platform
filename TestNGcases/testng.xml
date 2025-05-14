@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Place order">
+    <classes>
+      <class name="rsPractice.testCases.TestCase1"/>
+    </classes>
+  </test> <!-- Test -->
+  <!--   add another class with different tcs and add below
+   <test thread-count="5" name="cancel order">
+    <classes>
+      <class name="rsPractice.testCases.TestCase1"/>
+    </classes>
+  </test> --> <!-- Test --> 
+</suite> <!-- Suite -->

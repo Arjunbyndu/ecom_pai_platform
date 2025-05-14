@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-10T00:31:04 IST" name="Suite" finished-at="2025-05-10T00:31:26 IST" duration-ms="22064">
+    <groups>
+    </groups>
+    <test started-at="2025-05-10T00:31:04 IST" name="Test" finished-at="2025-05-10T00:31:26 IST" duration-ms="22064">
+      <class name="rsPractice.testCases.TestCase1">
+        <test-method is-config="true" signature="launchRahulshettyAcademyWebsite()[pri:0, instance:rsPractice.testCases.TestCase1@eadd4fb]" started-at="2025-05-10T00:31:04 IST" name="launchRahulshettyAcademyWebsite" finished-at="2025-05-10T00:31:06 IST" duration-ms="1900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchRahulshettyAcademyWebsite -->
+        <test-method signature="place_Order(java.util.HashMap)[pri:0, instance:rsPractice.testCases.TestCase1@eadd4fb]" started-at="2025-05-10T00:31:06 IST" name="place_Order" data-provider="getdata" finished-at="2025-05-10T00:31:14 IST" duration-ms="8116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, userName=Arjun, userEMail=arjunbyndu@gmail.com, productToBuy=Tomato}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- place_Order -->
+        <test-method is-config="true" signature="close()[pri:0, instance:rsPractice.testCases.TestCase1@eadd4fb]" started-at="2025-05-10T00:31:14 IST" name="close" finished-at="2025-05-10T00:31:15 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchRahulshettyAcademyWebsite()[pri:0, instance:rsPractice.testCases.TestCase1@eadd4fb]" started-at="2025-05-10T00:31:15 IST" name="launchRahulshettyAcademyWebsite" finished-at="2025-05-10T00:31:19 IST" duration-ms="4115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchRahulshettyAcademyWebsite -->
+        <test-method signature="place_Order(java.util.HashMap)[pri:0, instance:rsPractice.testCases.TestCase1@eadd4fb]" started-at="2025-05-10T00:31:19 IST" name="place_Order" data-provider="getdata" finished-at="2025-05-10T00:31:26 IST" duration-ms="7132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, userName=Arjun, userEMail=arjunbyndu@gmail.com, productToBuy=Brocolli}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- place_Order -->
+        <test-method is-config="true" signature="close()[pri:0, instance:rsPractice.testCases.TestCase1@eadd4fb]" started-at="2025-05-10T00:31:26 IST" name="close" finished-at="2025-05-10T00:31:26 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- rsPractice.testCases.TestCase1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
