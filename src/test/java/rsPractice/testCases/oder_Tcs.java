@@ -47,4 +47,21 @@ public class oder_Tcs {
 		driver.findElement(By.cssSelector("#form-submit:nth-of-type(1)")).click();
 		
 	}	
+	
+	public  void orderWithOffer2() throws InterruptedException
+	{
+	
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		
+		
+		driver.get("https://rahulshettyacademy.com/practice-project");
+		driver.findElement(By.xpath("//input[@placeholder='Your Name*']")).sendKeys("Arjun");
+		driver.findElement(By.xpath("//input[@placeholder='Your Email*']")).sendKeys("arjunbyndu@gmail.com");
+		driver.findElement(By.xpath("//input[@type='checkbox']")).click();
+		driver.findElement(By.cssSelector("#form-submit:nth-of-type(1)")).click();
+		
+	}
 }
